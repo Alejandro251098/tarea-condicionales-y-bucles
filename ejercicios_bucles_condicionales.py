@@ -128,15 +128,51 @@
 
 # Ejercicio 2 : Suma de numeros pares
 
-numero = int (input("ingrese un numero"))
-suma = 0
-for ( numero ) in range ( 2 , numero + 1) :
-    if  numero % 2 == 0 :
+# numero = int (input("ingrese un numero"))
+# suma = 0
+# for ( numero ) in range ( 2 , numero + 1) :
+#     if  numero % 2 == 0 :
     
-     print( numero)
-     suma = suma + numero
+#      print( numero)
+#      suma = suma + numero
      
-print ( "la suma de los pares es ", suma) 
+# print ( "la suma de los pares es ", suma)
 
 
+ 
+# EJERCICIO 3 : Patron de asteriscos 
 
+# num = int(input("ingrese un valor"))
+
+# for num in range ( 1 , num +1):
+#   for  n in range (num ):
+#      print("*" , end= "")
+#   print("")
+
+
+# CONDICIONALES Y BUCLES 
+
+
+# EJERCICIO 1: Suman de numeros pares for y if 
+
+
+# numero = int (input("ingrese un numero"))
+# suma = 0
+# for ( numero ) in range ( 2 , numero + 1) :
+#     if  numero % 2 == 0 :
+    
+#      print( numero)
+#      suma = suma + numero
+     
+# print ( "la suma de los pares es ", suma)
+
+# EJERCICIO 2 : Contador de vocales while e if 
+
+text = input (" ingrese una frase")
+vocal = ("a","e", "i","u","o")
+
+while  vocal != len(text):
+   if   text != vocal  [ "a","e", "i","u","o"] :
+        vocal<= 1
+        vocal >= 1
+print("la cantidad de vocales es :", vocal )       
