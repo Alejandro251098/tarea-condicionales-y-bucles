@@ -118,7 +118,7 @@
 
 # Ejercicio 1 : Tblas de multiplicar 
 
-numeros = int(input('Ingrese un numero'))
+# numeros = int(input('Ingrese un numero'))
 
 # for multipos in range(1, 11):
 #       resultado = numeros * multipos
@@ -129,11 +129,14 @@ numeros = int(input('Ingrese un numero'))
 # Ejercicio 2 : Suma de numeros pares
 
 numero = int (input("ingrese un numero"))
-
-for numeros_pares in range (2, numero  ) :
-   numeros_pares =(numero % 2)  
-   print( numeros_pares , numero )
+suma = 0
+for ( numero ) in range ( 2 , numero + 1) :
+    if  numero % 2 == 0 :
     
+     print( numero)
+     suma = suma + numero
+     
+print ( "la suma de los pares es ", suma) 
 
 
 
