@@ -158,7 +158,7 @@
 
 # numero = int (input("ingrese un numero"))
 # suma = 0
-# for ( numero ) in range ( 2 , numero + 1) :
+# for ( numero ) in range ( 1 , numero + 1) :
 #     if  numero % 2 == 0 :
     
 #      print( numero)
@@ -168,11 +168,64 @@
 
 # EJERCICIO 2 : Contador de vocales while e if 
 
-text = input (" ingrese una frase")
-vocal = ("a","e", "i","u","o")
+# cadena= input(" ingrese una frase")
+# vocales ="aeiou"
+# cantidad = 0 
 
-while  vocal != len(text):
-   if   text != vocal  [ "a","e", "i","u","o"] :
-        vocal<= 1
-        vocal >= 1
-print("la cantidad de vocales es :", vocal )       
+
+# while  cadena :      
+#         if vocales in cadena:
+#                 cantidad += 1  
+# print( "la cantidad de vocales es" , cantidad)
+
+
+# EJERCICIO 3 : numeros primos for if y else
+
+
+# num = int(input("ingrese un numero entero mayor a uno : "))
+
+# if num <= 1 :
+#          print("por favor escribir un numero entero positivo mayor a uno :")
+# else :
+#        contador = 0  
+#        for  i in range(1 , num + 1):
+#         if num % i == 0 :
+#               contador += 1      
+#        if contador == 2 : 
+#                 print(f"{num} es un numero primo " )
+#        else :
+#                 print(f"{num} no es un numero primo")       
+                 
+                      
+   
+# EJERCICIO 4 : Adivina el numero secreto con while e if 
+
+# import random
+
+# aleatoreo = random.randint( 1,100)
+# adivina = 0
+
+# while adivina != aleatoreo :
+#     if adivina == 0 :
+#         print ( "inicia el juego")
+#     elif adivina < aleatoreo :
+#         print ( "demasiado bajo")
+        
+#     else :
+#         print ("demasaido alto")
+#     adivina = int(input("ingresa el numero"))           
+#  print("haz ganado")
+
+
+
+# EJERCICIO 5 : Patron de asteriscos
+
+
+num = int(input("ingrese un valor"))
+
+for x in range (  num ):
+  for  y in range (num ):
+         
+         print("*",end="" )              
+         
+                 
