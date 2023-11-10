@@ -166,17 +166,20 @@
      
 # print ( "la suma de los pares es ", suma)
 
-# EJERCICIO 2 : Contador de vocales while e if 
+# EJERCICIO 2 : Contador de vocales while e if
 
-# cadena= input(" ingrese una frase")
-# vocales ="aeiou"
-# cantidad = 0 
+def  contar_vocales(input_string) :
+     vocales ="aeiou" 
+     cantidad = 0 
+     index = 0
+     while  index < len(input_string) :      
+      if input_string[index].lower() in  vocales:
+         cantidad += 1             
+      index += 1  
+     return  cantidad 
+cadena= input(" ingrese una frase:")
+print( "La cantidad de vocales es :", contar_vocales(cadena))
 
-
-# while  cadena :      
-#         if vocales in cadena:
-#                 cantidad += 1  
-# print( "la cantidad de vocales es" , cantidad)
 
 
 # EJERCICIO 3 : numeros primos for if y else
@@ -221,11 +224,18 @@
 # EJERCICIO 5 : Patron de asteriscos
 
 
-num = int(input("ingrese un valor"))
+# num = int(input("ingrese un valor"))
 
-for x in range (  num ):
-  for  y in range (num ):
+# for x in range (1,  num +1 ):
+#   for  y in range (num ):
+#          if num % 2 == 0 :
+#           print("*",end="" )   
+#   else :
+#      print ("*")  
          
-         print("*",end="" )              
+         
+  
+                      
+                  
          
                  
